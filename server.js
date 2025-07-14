@@ -15,6 +15,7 @@ app.use(logger);
 
 // Set Up EJS as the template engine
 app.set("view engine", "ejs");
+
 // Set the views directory for EJS templates
 app.set(
   "views",
